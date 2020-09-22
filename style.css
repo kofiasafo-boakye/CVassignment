@@ -138,8 +138,7 @@ h1{
   .form-box button:disabled {
     background-color: red;
   }
-  
-  //it put first name ontop of the box
+
   .form-box input {
       border: 2px solid #f0f0f0;
       border-radius: 4px;
