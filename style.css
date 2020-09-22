@@ -1,0 +1,212 @@
+h1{
+    font-size: 60px;
+    font-family:,Arial,  sans-serif;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 100px
+  }
+  
+  .left {
+      float: left;
+  }
+  .right {
+      float: right;
+  }
+  .fonttype{
+    font-family: Verdana;
+    font-size: 18px;
+  }
+  
+  .cv{
+    font-family: Verdana;
+    border-bottom: 2px solid black;
+  
+  }
+  
+  underline{
+    border-bottom: 3px solid black;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  body{
+    align-items: center;
+    justify-content: center; 
+    
+  }
+  
+  .drop{
+    margin-top: 40px;
+  }
+  
+  
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  
+  .form-box {
+    background-color: var(--content-bg);
+    color: var(--content-text);
+    width: 20%;
+    border: double;
+    margin: auto;
+    padding: 3%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+  }
+  
+  .form-box .field-group {
+    flex: 0 1 75%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2%;
+    align-items: flex-start;
+  }
+  
+  .form-box .field-group input {
+    padding: 5px 2px;
+    flex: 5 2;
+    
+    /* width: 30em; */
+    margin: 1%;
+  }
+  
+  .form-box .field-group label {
+    font-weight: bold;
+    flex: 3 1;
+    padding: 5px 1px;
+    margin: 1%;
+  }
+  
+  .form-box select{
+    width: 68%;
+    padding: 5px 6px;
+    margin: 1%;
+  }
+  
+  .form-box .field-group .short-column {
+    display: flex;
+    flex: 0 1 12%;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  .form-box .field-group .short-column label {
+    flex: 0 1 18%;
+    padding: 0;
+    justify-content: center;
+    align-content: space-around;
+  }
+  
+  .form-box .field-group .short-column input[type="checkbox"]:focus {
+    flex: 0 1 20%;
+    padding: 0;
+    justify-content: center;
+    align-content: space-around;
+    color: red;
+  }
+  
+  
+  .form-box .field-group .short-column input[type="checkbox"] {
+    flex: 0 1 20%;
+    padding: 0;
+    justify-content: center;
+    color: yellow;
+  }
+  
+  .form-box button {
+    background-color: grey;
+    flex: 3 1;
+    align-self: center;
+    width: 10rem;
+    color: white;
+    padding: 5px 6px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  .form-box button:disabled {
+    background-color: red;
+  }
+  
+  //it put first name ontop of the box
+  .form-box input {
+      border: 2px solid #f0f0f0;
+      border-radius: 4px;
+      display: block;
+      font-family: inherit;
+      font-size: 14px;
+      padding: 10px;
+      width: 100%;
+  }
+  
+  .form-control.success input {
+      border-color: #2ecc71;
+  }
+  
+  .form-control.error input {
+      border-color: #e74c3c;
+  }
+  
+  .form-control i {
+      visibility: hidden;
+      position: absolute;
+      top: 40px;
+      right: 10px;
+  }
+  
+  .form-control.success i.fa-check-circle {
+      color: #2ecc71;
+      visibility: visible;
+  }
+  
+  .form-control.error i.fa-exclamation-circle {
+      color: #e74c3c;
+      visibility: visible;
+  }
+  
+  .form-control small {
+      color: #e74c3c;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      visibility: hidden;
+  }
+  
+  .form-control.error small {
+      visibility: visible;
+  }
+  
+  .form-box label {
+      display: inline-block;
+      margin-bottom: 5px;
+  }
+  
+  .form-box .hidden {
+    visibility: hidden;
+  }
+  
+  .form-box .error-msg {
+    border: 1px solid var(--error-text);
+    color: var(--error-text);
+    background-color: var(--action-bg);
+  }
+  
+  .form-box .info-msg {
+    color: var(--layout-text);
+    font-size: 0.25em;
+  }
+  
+  .boxhighlight{
+    border:1.5px solid red; 
+  }
