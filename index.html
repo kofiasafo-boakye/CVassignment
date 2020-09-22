@@ -1,10 +1,11 @@
+@import url("style.css");
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Form</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  
   </head>  
   
   <div class = "field-group">
@@ -36,11 +37,11 @@
       <input type="tel" id="phone" name="phone" placeholder="eg. 0270000000">
     </div>
     <div class="field-group">
-			<label for "email">Email</label>
+			<label for= "email">Email</label>
 			<input type="email" id="email" name="email"  placeholder="studentname@ahesi.edu.gh">
     </div>
     <div class="field-group">
-			<label for "address">Address</label>
+			<label for= "address">Address</label>
 			<input type="address" id="address" name="address"  placeholder="P.O Box Address">
     </div>
     <button onclick = "passvalue();" class = "drop" id="addStudentSubmit" type="submit" value="add">Submit </button>
@@ -48,6 +49,8 @@
     </div>
 
   </form>  
+
+  <script src= "index.js"></script>
 
 </html>
 
